@@ -1,0 +1,21 @@
+Dataset:
+This project utilizes the Human Activity Recognition Using Smartphones dataset. It contains measurements of various physical activities captured by smartphone sensors.
+
+Variables:
+df_train: Training dataset of measurements.
+df_test: Test dataset of measurements.
+df: Combined dataset of df_train and df_test.
+features: Column names (sensor features) for df.
+df_mean_std: Subset of df with measurements containing only mean and standard deviation values.
+df_train_labels and df_test_labels: Activity labels for train and test datasets, respectively.
+df_labels: Combined dataset of df_train_labels and df_test_labels.
+df_activity_labels_name: Descriptive names for activity labels.
+
+Transformations:
+Data Loading: Training, test, feature names, and activity labels are loaded.
+Data Merging: Training and test datasets are merged, and columns are renamed using feature names.
+Filtering: Extracts columns containing "mean()" or "std()".
+Activity Labels Mapping: Maps activity codes to descriptive names.
+Person ID Assignment: Merges person identifiers to the main dataset.
+Aggrigations: Calicurate average of all variable for each activity and each person
+Saving aggrigated data: save the data set to csv format.

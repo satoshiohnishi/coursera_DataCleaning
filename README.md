@@ -9,9 +9,7 @@ CodeBook.text: Document detailing variables, dataset information, and transforma
 
 README.md: Repository information.
 
-average_by_person.csv: Outputs a neat dataset of averages by person
-
-average_by_activity.csv: Outputs a neat dataset of averages by activity
+avarage_by_person_activity.text: Tidy dataset created after execution 'run_analysis.R'
 
 
 

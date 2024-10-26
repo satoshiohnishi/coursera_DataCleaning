@@ -16,4 +16,4 @@ avarage_by_person_activity.text: Tidy dataset created after execution 'run_analy
 
 Usage:
 
-Run run_analysis.R to load, clean, and transform the dataset, producing a final, tidy dataset with descriptive activity names and a subset of mean and standard deviation measurements.
+Run run_analysis.R to load, clean, and transform the dataset to create tidy data that aggregates the average of values for each activity name and person ID, along with their variables corresponding to mean and standard deviation .
